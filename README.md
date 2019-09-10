@@ -1,10 +1,11 @@
 # Capstone
 
-## Set Up VirtualEnv
-Install: `python3 -m pip install --user virtualenv`
+## Setup
+`brew install python3`
 <br>
-Create: `python3 -m venv env`
+`pip3 install virtualenv`
 <br>
-Activate: `source env/bin/activate`
+`cd Capstone`
 <br>
-Install Necessary Packages as listed in *requirements.txt* by using `pip install <package>`
+`virtualenv -p python3 <path-to-our-dir>`
+`source <path-to-our-dir>/bin/activate`
